@@ -1,0 +1,203 @@
+header, section, footer, aside, nav, main, article, figure 
+{
+    display: block; 
+}
+body
+{
+  font-family: 'open sans', arial, sans-serif;
+  /* background-color: #f1ebda; */
+  position: absolute;
+  min-width: 100%;
+}
+.wrapper
+{
+  overflow-x: hidden;
+}
+.menuBtn1
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  text-shadow:
+  -1px -1px 0 #000000,
+  1px -1px 0 #000000,
+  -1px 1px 0 #000000,
+  1px 1px 0 #000000;
+}
+.menu
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.right
+{
+  float: right;
+}
+header
+{
+  width: 100vw;
+  height: 120px;
+  /* background-color: #ffffff86; */
+}
+.logo
+{
+  position: absolute;
+  background: url(../images/image.png) no-repeat center;
+  width: 277px;
+  height: 117px;
+  top: 0;
+  right: 0;
+}
+.main
+{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/windmills.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro
+{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 2em;
+  width: 70%;
+  margin-left: 15%;
+  color: #ffffff;
+}
+.about
+{
+  /* width: 100vw; */
+  /* height: 100vh; */
+  width: 50%;
+  text-align: left;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  /* font-size: 2em; */
+  margin-left: 25%;
+}
+.services
+{
+  width: 100vw;
+  text-align: center;
+  background-color: #f2f2f2;
+  /* width: 50%; */
+  /* margin-left: 25%; */
+  padding-bottom: 5%;
+}
+.title
+{
+  /* font-weight: bold; */
+  font-size: 2.5em;
+  color: #36336F;
+}
+.title2
+{
+  background-color: #f2f2f2;
+  font-size: 2.5em;
+  color: #36336F;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.title3
+{
+  font-size: 2em;
+  width: 100%;
+  color: #36336F;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.title4
+{
+  font-size: 1.2em;
+  font-weight: bold;
+  /* width: 100%; */
+  color: #36336F;
+  /* padding-top: 5%; */
+  /* padding-bottom: 5%; */
+}
+.price
+{
+  font-size: 1.5em;
+}
+.info
+{
+  font-size: 1.5em;
+}
+.info2
+{
+  font-size: 1.2em;
+}
+.infoTitle
+{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.button
+{
+  font-size: 1.5em;
+  border: 1px solid #36336F;
+}
+.text
+{
+  font-size: 1.5em;
+}
+.cols > .price, .info
+{
+  line-height: 2.5;
+}
+.footer
+{
+  /* text-align: center; */
+  background-color: #666666;
+  /* color: #36336F; */
+  color: #f2f2f2;
+  /* padding-top: 5%; */
+  /* padding-bottom: 5%; */
+}
+.smallTitle
+{
+  font-weight: bold;
+}
+@media only screen and (max-width: 1000px)
+{
+  .intro
+  {
+    margin-top: 15%;
+  }
+  .about
+  {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 750px)
+{
+  .about
+  {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .title3
+  {
+    padding-top: 10%;
+  }
+}
+@media only screen and (max-width: 600px) 
+{
+  .about
+  {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 500px) 
+{
+  .intro
+  {
+    margin-top: 20%;
+  }
+}
