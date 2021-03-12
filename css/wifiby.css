@@ -9,7 +9,7 @@ figure {
 	display: block;
 }
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif !important;
 	/* background-color: #f1ebda; */
   min-width: 100%;
   font-size: 20px
@@ -25,14 +25,40 @@ nav {
   text-transform: unset !important;
   font-size: 16px !important;
 }
-header {
-  background-image: url("../images/windmills.jpg");
+.uk-section-xsmall {
+  /* background-color: #fff; */
 }
-header h3, .uk-card-small h3, .uk-card-small h4, footer h4 {
+header {
+  /* background-image: url("../images/windmills1.jpg"); */
+}
+header video {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+header h1, .uk-card-small h3, .uk-card-small h4, footer h4 {
   color: #fff !important;
+  font-weight: bold;
+}
+header h1 {
+  font-family: Helvetica, Arial, sans-serif !important;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
 }
 .border-bottom {
   border-bottom: 4px solid #000;
+}
+.facts {
+  text-align: center;
+}
+.icon {
+  color: #36336f;
 }
 .border-top {
   border-top: 4px solid #000;
@@ -48,6 +74,13 @@ footer {
   background: #666;
   color: #f2f2f2;
   font-size: 18px;
+}
+footer h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+footer p {
+  margin-top: 0px;
 }
 footer a {
   color: #f2f2f2 !important;
